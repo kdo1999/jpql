@@ -18,6 +18,7 @@
             <property name="hibernate.hbm2ddl.auto" value="create" />
             <!--10개씩 한방에 쿼리를 보냄-->
             <!--<property name="hibernate.jdbc.batch_size" value="100"/>-->
+<!--            @BatchSize 값 설정 (가급적 1000이하로)-->
             <property name="hibernate.default_batch_fetch_size" value="100"/>
         </properties>
     </persistence-unit>
